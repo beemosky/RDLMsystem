@@ -1,0 +1,100 @@
+
+body {
+  padding: 40px;
+  background-color: #e8eaf6;
+}
+
+.navbar .navbar-brand img {
+  height: 30px;
+}
+
+.navbar .navbar-brand {
+  padding-top: 0;
+}
+
+.navbar .nav-link {
+  color: white!important;
+  font-size: 13px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.navbar .button-collapse {
+  padding-top: 1px;
+}
+
+.card-intro .card-body {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-radius: 0 !important;
+}
+
+.card-intro .card-body h1 {
+  margin-bottom: 0;
+}
+
+.card-intro {
+  margin-top: 64px;
+}
+
+@media (max-width: 450px) {
+  .card-intro {
+    margin-top: 56px;
+  }
+}
+
+@media (min-width: 1441px) {
+  .card-intro {
+    padding-left: 0 !important;
+  }
+}
+
+/* Animation */
+
+@keyframes fadeInUp {
+  from {
+      transform: translate3d(0,40px,0)
+  }
+
+  to {
+      transform: translate3d(0,0,0);
+      opacity: 1
+  }
+}
+
+@-webkit-keyframes fadeInUp {
+  from {
+      transform: translate3d(0,40px,0)
+  }
+
+  to {
+      transform: translate3d(0,0,0);
+      opacity: 1
+  }
+}
+
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-fill-mode: both
+}
+
+.animatedFadeInUp {
+  opacity: 0
+}
+
+.fadeInUp {
+  opacity: 0;
+  animation-name: fadeInUp;
+  -webkit-animation-name: fadeInUp;
+}
+.img-responsive{
+
+  height: 400px;
+}
+.navcolor{
+
+  background-color: #7c43bd;
+}
